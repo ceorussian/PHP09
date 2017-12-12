@@ -1,0 +1,9 @@
+.form-register h2 {
+	text-align: center;
+}
+.form-register a{
+	color: blue;
+}
+.form-register a:hover{
+	text-decoration: underline;
+}

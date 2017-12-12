@@ -1,0 +1,142 @@
+/*style for header*/
+
+header{
+	margin-bottom: 0;
+	background-color: #363441;
+	color: #fff;
+	height: 165px;
+}
+/*style for top-line*/
+header .container *{
+	display: flex;
+	align-items: center;
+}
+.top-line{
+	height: 55px;
+	border-bottom: 1px solid white;
+}
+.top-line .container > *{
+	height: 55px;
+}
+.call{
+	float: left;
+	width: 200px;
+}
+.call span{
+	color: red;
+	font-size: 24px;
+}
+.user_login{
+	float: right;
+	width: 100px;
+	margin-right: 10px;
+}
+.user_login ul li{
+	float: left;
+	border: 1px solid white;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	list-style-type: none;
+	justify-content: center;
+	margin-left: 10px;
+}
+.user_login *:hover{
+	color: purple;
+}
+.user_login ul li:active{
+	transform: translateZ(10px);
+	border: 1px solid purple;
+}
+ /*end style for top-line*/
+
+
+/*style for mid line*/
+.logo{
+	float: left;
+	height: 110px;
+	width: 33%;
+	font-size: 36px;
+}
+.logo span{
+	color: purple;
+}
+.logo:active{
+	transform: translateY(1px);
+}
+.search{
+	float: left;
+	height: 110px;
+	width: 33%;
+}
+.border-search{
+	height: 55px;
+	padding-left: 10px;
+	padding-right: 2px;
+	border: 1px solid white;
+	border-radius: 55px;
+	width: 100%;
+}
+.border-search *{
+	background-color: #363441;
+	outline: none;
+	border: none;
+}
+.search input{
+	width: 85%;
+	padding-left: 5px;
+	color: white;
+}
+.search button{
+	width: 60px;
+}
+
+.fa-search:hover{
+	color: purple;
+}
+.fa-search:active{
+  	transform: translateY(1px);
+}
+.check{
+	float: right;
+	height: 110px;
+	width: 30%;
+	justify-content: center;
+}
+.check *{
+	color: cyan;
+	line-height: 24px;
+}
+.check *:hover{
+	color: white;
+	margin: 2px;
+}
+.check *:active{
+	transform: translateY(1px);
+}
+.check b{
+	font-size: 14px;
+}
+#tru{
+	width: 100px;
+}
+@media (min-width: 1024px) and (max-width: 1919px){
+	
+}
+@media (min-width: 768px) and (max-width: 1023px){
+	
+}
+@media (min-width: 480px) and (max-width: 767px){
+	.logo{
+		width: 50%;
+	}
+	.search{
+		display: none;
+	}
+	.check {
+		width: 40%;
+	}
+}
+@media (min-width: 320px) and (max-width: 479px){
+	
+}

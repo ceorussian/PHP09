@@ -1,0 +1,81 @@
+footer{
+	display: block;
+	margin-bottom: 0;
+	background-color: #363441;
+	color: #fff;
+}
+.top-footer{
+	height: 250px;
+	border-bottom: 1px solid white;
+}
+.top-footer a{
+	color: cyan;
+}
+.top-footer a:hover{
+	text-decoration: underline;
+}
+.top-footer .container .column{
+	display: block;
+	width: 25%;
+	float: left;
+	height: 100%;
+}
+.top-footer .container .column .item{
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+.top-footer .container .column .item span{
+	margin-left: 10px;
+	font-size: 14px;
+}
+.bottom-footer{
+	height: 110px;
+}
+.bottom-footer .copyright{
+	float: left;
+	width: 250px;
+	height: 110px;
+	display: flex;
+	align-items: center;
+}
+.bottom-footer ul{
+	height: 110px;
+	float: right;
+	display: flex;
+	align-items: center;
+}
+.bottom-footer li{
+	list-style-type: none;
+	margin-right: 20px;
+}
+.bottom-footer .fa-facebook:hover{
+	color: blue;
+}
+.bottom-footer .fa-twitter:hover{
+	color: cyan;
+}
+.bottom-footer .fa-youtube-play:hover{
+	color: red;
+}
+.bottom-footer .fa-facebook:active{
+	transform: translateY(1px);
+}
+.bottom-footer .fa-twitter:active{
+	transform: translateY(1px);
+}
+.bottom-footer .fa-youtube-play:active{
+	transform: translateY(1px);
+}
+@media (min-width: 1024px) and (max-width: 1919px){
+	
+}
+@media (min-width: 768px) and (max-width: 1023px){
+	
+}
+@media (min-width: 480px) and (max-width: 767px){
+	
+}
+@media (min-width: 320px) and (max-width: 479px){
+	
+}
